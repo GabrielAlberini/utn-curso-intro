@@ -1,0 +1,39 @@
+.container {
+  width: 500px;
+  padding: 10px;
+  background-color: darkkhaki;
+  margin: 15px auto;
+  border-radius: 100px;
+}
+
+.progress-10, .progress-25, .progress-50, .progress-75, .progress-90 {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.progress-10 {
+  width: 10%;
+  background-color: blue;
+}
+
+.progress-25 {
+  width: 25%;
+  background-color: blueviolet;
+}
+
+.progress-50 {
+  width: 50%;
+  background-color: cornsilk;
+}
+
+.progress-75 {
+  width: 75%;
+  background-color: darkgoldenrod;
+}
+
+.progress-90 {
+  width: 90%;
+  background-color: cyan;
+}
