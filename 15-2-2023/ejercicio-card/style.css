@@ -1,0 +1,49 @@
+/* Selector univesal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  #44d4d8;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  margin: 150px auto;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 6px 7px 14px -6px rgba(98,98,98,0.75);
+  font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+  padding: 10px 0;
+}
+
+.cont-option {
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #e6ecff;
+  border-left-width: 5px; 
+  border-radius: 5px;
+}
+
+.magenta {
+  border-left-color:#f85e99;
+}
+
+.violeta {
+  border-left-color:#d788ff;
+}
+
+.naranja {
+  border-left-color:#ffa378;
+}
+
+p {
+  color: #656c81;
+  font-weight: bold;
+}

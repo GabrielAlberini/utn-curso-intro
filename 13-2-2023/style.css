@@ -27,8 +27,14 @@ Display inline: ocupa solo ocupa la dimensión del contenido
   text-align: center;
 }  */
 
+@font-face {
+  font-family: "Roboto BOLD";
+  src: url("./assets/RobotoBold.ttf");
+}
+
+
 .title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Roboto BOLD";
   text-align: center;
   background-color: darksalmon;
   /* grosor, estilo de borde, color */
