@@ -1,0 +1,68 @@
+
+/* margins reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.article-1 {
+  height: 400px;
+  display: flex;
+  margin-bottom: 10px;
+  /* flex-direction: row; */
+  background-color: aquamarine;
+  /* eje X */
+  /* justify-content: flex-end; */
+  /* eje Y */
+  /* align-items: end; */
+
+  /* flex-direction: row-reverse; */
+  /* justify-content: center; */
+
+  flex-direction: column;
+  /* cuando modifico la direccion a column, align items y justify content reverten los ejes */
+  justify-content: center;
+}
+
+.item-1  {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-1 {
+  order: 0;
+}
+
+.div-2 {
+  order: 0;
+}
+
+.div-3 {
+  order: -1;
+}
+
+#id-article-2{
+  display: flex;
+  height: 500px;
+  /* flex-wrap: wrap; */
+  flex-flow: column wrap;
+  background-color: cadetblue;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-2 {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin: 10px;
+}
