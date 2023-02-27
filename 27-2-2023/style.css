@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Estilos generales */
+
+header, main, footer {
+  padding: 20px;
+}
+
+header {
+  background-color: cadetblue;
+}
+
+main {
+  background-color: coral;
+}
+
+footer {
+  background-color: darkkhaki;
+}
+
+/* Estilos header */
+
+/* Multiselector */
+/* header, nav, ul {
+  color: red;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Selector especifico */
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+header h1 {
+  /* background-color: blueviolet; */
+}
+
+header nav {
+  /* background-color: yellowgreen; */
+}
+
+header nav ul li {
+  background-color: red;
+  padding: 10px;
+  
+}
+
+/* Estilos main */
+
+main {
+  display: flex;
+  min-height: 100vh;
+}
+
+.cont-section {
+  background-color: violet;
+}
+
+.cont-aside {
+  background-color: wheat;
+}
+
+/* Controlando el ancho de los hijos flex con porcentaje (forma no óptima)*/
+
+.cont-aside {
+  width: 25%;
+}
+
+.cont-section {
+  width: 50%;
+} 
+
+/* Flex grow le indica al elemento flex hijo cuanto espacio deberá ocupar en el contenedor padre */
+
+/* .cont-aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.cont-section {
+  flex-grow: 2;
+} */
+
+.cont-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+}
+
+
+/* Estilos sección grid */
+
+.cont-section {
+  padding: 20px;
+}
+
+.title-grid {
+  background-color: cornflowerblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.cont-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 150px;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: tomato;
+}
+
+/* Estilos footer */
+
+footer {
+  border-top: 2px solid black;
+  text-align: center;
+}
+
+
+
+
+
+

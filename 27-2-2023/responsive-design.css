@@ -1,0 +1,48 @@
+/* 
+  media queries: hace referencia a un punto de quiebre en la vista del viewport. Por defecto trabajamos en vista desktop.
+
+  Media queries por convención:
+
+  PC: 1440px
+  Tablet: 880px
+  Celular: 480px
+
+*/
+
+/* MQ para tablet */
+@media (max-width: 880px) {
+  header {
+    background-color: green;
+  }
+}
+
+/* MQ para celulares */
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    background-color: yellow;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .cont-aside, .cont-section {
+    width: 100%;
+  }
+
+  .cont-aside {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .cont-section {
+    order: -1;
+  }
+}
