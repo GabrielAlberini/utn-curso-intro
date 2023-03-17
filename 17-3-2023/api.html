@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API</title>
+    <link rel="stylesheet" href="styles/api.css" />
+  </head>
+  <body>
+    <h1>API</h1>
+    <p>
+      Significa interfaz (es una interfaz) de programación de aplicaciones. Las
+      API permiten que sus productos y servicios se comuniquen con otros, sin
+      necesidad de saber cómo están implementados. Esto simplifica el desarrollo
+      de las aplicaciones y permite ahorrar tiempo y dinero. Ej: Usar Maps en
+      una App como easy taxi, Usar paypal o mercado pago en una App Tienda, etc
+    </p>
+    <h2>Hay muchos tipos: Clasificación:</h2>
+    <ol>
+      <li>
+        Locales: se ejecutan dentro del mismo entorno (vibracion del telefono)
+      </li>
+      <li>Remotas: Consumens datos de una app que está en otro lugar</li>
+    </ol>
+    <h2>API REST (Representational State Transfer)</h2>
+    <p>
+      Es una arquitectura, implica que pueden guardarse los datos en cache, que
+      el estado no se envia en las peticiones y puedes definir que datos
+      permites que otra aplicacion acceda, revise o manipule (permisos)
+    </p>
+    <p style="padding-bottom: 20px">
+      Dentro de las API REST cada recurso que se consulta tienen un
+      identificador unico llamado URI, pero dentro de la APPi el servidor puede
+      contestar con códigos:
+    </p>
+    <ul>
+      <li>Codigos 200 (respuesta exitosa)</li>
+      <li>Codigos 300 (Redireccion)</li>
+      <li>Codigos 400 (Peticion inválida)</li>
+      <li>Codigos 500 (Errores en el servidor)</li>
+    </ul>
+    <p style="padding: 20px 0">
+      <a href="https://http.cat/" target="_blank"
+        >Mensajes de errores con gatitos :)</a
+      >
+    </p>
+    <h2>Métodos HTTP:</h2>
+    <ul>
+      <li>Get (solicitar nueva informacion)</li>
+      <li>Post (Evnviar nueva informacion)</li>
+      <li>Put (actualizar informacion que ya existe)</li>
+      <li>Delete (borrar un recurso)</li>
+    </ul>
+    <h2>Formatos:</h2>
+    <ul>
+      <li>Json {}</li>
+      <li>XML <></li>
+      <li>Texto plano</li>
+    </ul>
+    <h2>XML (Extensible Markup Lenguaje)</h2>
+    <p>Formato tradicional para enviar datos en api</p>
+    <h2>Json (JavaScript Objet Notation)</h2>
+    <p>Mas usado hoy en dia para transferir informacion</p>
+    <h2>Token</h2>
+    <p>
+      Las APIs pueden ser publicas (acceso libre) o privadas (requiere
+      autenticación para lo cual solicitará un Token (jwt))
+    </p>
+    <h2>Interfaz</h2>
+    <p>
+      Capa de abstracción para que dos sistemas se comuniquen. Ej: volante y
+      auto, o formulario de login
+    </p>
+    <h2>Arquitectura de software:</h2>
+    <p>
+      Es la forma en que está diseñado un sistema, cómo están organizados sus
+      componentes, como se comunican entre ellos, qué funciones cumplen
+    </p>
+    <h2>Servicio Web:</h2>
+    <p>
+      Es un sistema que permite comunicación entre equipos que están en una
+      misma red, siguiendo determinados estandares (http,etc)
+    </p>
+  </body>
+</html>
